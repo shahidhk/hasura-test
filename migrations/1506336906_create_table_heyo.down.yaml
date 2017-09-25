@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "heyo"(id integer NOT NULL, timestamp timestamptz NOT NULL,
+      PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: heyo
+  type: add_existing_table_or_view
