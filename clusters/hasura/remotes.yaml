@@ -1,4 +1,8 @@
 hasura:
+  default.app:
+    app:
+      dockerfile: services/app/Dockerfile
+      path: services/app
   default.www:
     www:
       dockerfile: services/www/Dockerfile

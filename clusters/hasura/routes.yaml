@@ -1,3 +1,15 @@
+app:
+  /:
+    enableAuth: true
+    enableCORS: true
+    enableWebsockets: true
+    locationDirectives: []
+    restrictToRoles: []
+    upstreamService:
+      name: app
+      namespace: default
+    upstreamServicePath: /
+    upstreamServicePort: 80
 auth:
   /:
     enableAuth: true
