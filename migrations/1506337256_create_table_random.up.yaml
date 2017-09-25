@@ -1,0 +1,6 @@
+- args:
+    sql: CREATE TABLE "random"(id serial NOT NULL, PRIMARY KEY ("id") )
+  type: run_sql
+- args:
+    name: random
+  type: add_existing_table_or_view
