@@ -1,0 +1,5 @@
+h34-falsely13-stg.hasura-app.io:
+  ssl:
+    conf:
+      account: h34-falsely13-stghasura385
+    type: LetsEncrypt

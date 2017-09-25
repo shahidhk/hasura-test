@@ -1,0 +1,2 @@
+defaultCluster: hasura
+name: hasura-test

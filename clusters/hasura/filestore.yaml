@@ -1,0 +1,5 @@
+hookUrl: null
+volume:
+  hostPath:
+    path: /data/hasura.io/filestore
+  name: filestore-pv
